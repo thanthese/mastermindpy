@@ -1,4 +1,1 @@
-mastermindpy
-============
-
-Simple mastermind-solving script
+It's a simple mastermind-solving command line script. It's not sophisticated enough to take arguments (yet), so you have to open up the script and muck with settings to make it do what you want.
