@@ -3,10 +3,13 @@ import random
 import time
 
 initial_state = \
-    {"colors": "bdglpr",
-     "slots": 4,
-     "history": [{"pips": {"black": 0, "white": 2}, "guess": "lppl"},
-                 {"pips": {"black": 1, "white": 1}, "guess": "bldb"}]}
+    {"colors": "bdglpry",
+     "slots": 6,
+     "history": [{"guess": "gggppp", "pips": {"black": 0, "white": 0}},
+                 {"guess": "rrrddd", "pips": {"black": 1, "white": 1}},
+                 {"guess": "yyylll", "pips": {"black": 1, "white": 2}},
+                 {"guess": "rybryy", "pips": {"black": 1, "white": 2}},
+                 {"guess": "dlldbl", "pips": {"black": 1, "white": 3}}]}
 
 
 def calc_pips(code, guess):
